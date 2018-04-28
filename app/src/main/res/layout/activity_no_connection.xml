@@ -7,4 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".NoConnectionActivity">
 
+    <TextView
+        android:id="@+id/notConnected_textView"
+        android:layout_width="206dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/not_connected_txt"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tryAgain_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/tryAgain_btn"
+        android:layout_width="174dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="156dp"
+        android:background="#1a910d"
+        android:text="@string/try_again_btn"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
