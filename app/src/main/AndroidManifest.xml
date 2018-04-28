@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".EnrollActivity" />
         <activity android:name=".VerifyActivity" />
-        <activity android:name=".NoConnectionActivity"></activity>
+        <activity android:name=".NoConnectionActivity" />
+        <activity android:name=".ConnectActivity" />
+        <activity android:name=".CheckActivity"></activity>
     </application>
 
 </manifest>
