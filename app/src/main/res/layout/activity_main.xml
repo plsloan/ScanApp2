@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/enr_btn"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="160dp"
+        android:background="#1a910d"
+        android:onClick="clickEnroll"
+        android:text="@string/enroll_btn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/ver_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ver_btn"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginTop="20dp"
+        android:background="#1a910d"
+        android:onClick="clickVerify"
+        android:text="@string/verify_btn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enr_btn" />
+</android.support.constraint.ConstraintLayout>

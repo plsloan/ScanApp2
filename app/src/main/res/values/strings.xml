@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScanApp</string>
+    <string name="enroll_btn">Enroll</string>
+    <string name="verify_btn">Verify</string>
+</resources>
