@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">ScanApp</string>
+
+    <!-- main page -->
+    <string name="header_txt">ScanApp</string>
     <string name="enroll_btn">Enroll</string>
     <string name="verify_btn">Verify</string>
+    <string name="check_btn">Check Print</string>
+    <string name="connect_btn">Connect Reader</string>
+
+    <!-- not connected page -->
     <string name="not_connected_txt">Reader not connected</string>
     <string name="try_again_btn">Try again...</string>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
 </resources>
